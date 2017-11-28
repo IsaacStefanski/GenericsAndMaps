@@ -73,6 +73,6 @@ public class Dog implements Comparable<Dog> {
 
     @Override
     public String toString() {
-        return "Dog{" + "name=" + name + ", age=" + age + ", rabiesId=" + rabiesId + '}';
-    }   
+        return rabiesId + " " + name + ", age " + age;
+    }
 }
